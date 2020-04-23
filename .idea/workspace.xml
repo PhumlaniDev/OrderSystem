@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eb7ae599-c0aa-4ca0-a209-07739ebd753f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OrderSystem/model/OrderModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OrderSystem/model/OrderModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/OrderModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/OrderModel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +21,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1aqforJ6bZ1KmeO5PkG1eh6rQyW" />
   <component name="PropertiesComponent">
@@ -72,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583138767151</updated>
       <workItem from="1587468225836" duration="4092000" />
-      <workItem from="1587660453233" duration="2270000" />
+      <workItem from="1587660453233" duration="3467000" />
     </task>
     <task id="LOCAL-00001" summary="Commit from IntelliJ">
       <created>1587660779744</created>

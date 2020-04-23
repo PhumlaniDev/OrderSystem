@@ -66,10 +66,7 @@ public class OrderModel {
                 again = input.nextInt();
 
                 if (again == 1) {
-                    Menu();
-                    if (choose == 1){
-                        showSnackMenu();
-                    }
+                   showSnackMenu();
                 } else {
                     System.out.println("Total price is: " + total);
                 }
@@ -88,10 +85,7 @@ public class OrderModel {
                 again = input.nextInt();
 
                 if (again == 1) {
-                    Menu();
-                    if (choose == 1){
-                        showSnackMenu();
-                    }
+                    showSnackMenu();
                 } else {
                     System.out.println("Total price is: " + total);
                 }
@@ -110,10 +104,7 @@ public class OrderModel {
                 again = input.nextInt();
 
                 if (again == 1) {
-                    Menu();
-                    if (choose == 1){
-                        showSnackMenu();
-                    }
+                    showSnackMenu();
                 } else {
                     System.out.println("Total price is: " + total);
                 }
@@ -132,10 +123,7 @@ public class OrderModel {
                 again = input.nextInt();
 
                 if (again == 1) {
-                    Menu();
-                    if (choose == 1){
-                        showSnackMenu();
-                    }
+                    showSnackMenu();
                 } else {
                     System.out.println("Total price is: " + total);
                 }
@@ -154,10 +142,7 @@ public class OrderModel {
                 again = input.nextInt();
 
                 if (again == 1) {
-                    Menu();
-                    if (choose == 1){
-                        showSnackMenu();
-                    }
+                    showSnackMenu();
                 } else {
                     System.out.println("Total price is: " + total);
                 }
@@ -176,10 +161,7 @@ public class OrderModel {
                 again = input.nextInt();
 
                 if (again == 1) {
-                    Menu();
-                    if (choose == 1){
-                        showSnackMenu();
-                    }
+                    showSnackMenu();
                 } else {
                     System.out.println("Total price is: " + total);
                 }
@@ -198,10 +180,7 @@ public class OrderModel {
                 again = input.nextInt();
 
                 if (again == 1) {
-                    Menu();
-                    if (choose == 1){
-                        showSnackMenu();
-                    }
+                    showSnackMenu();
                 } else {
                     System.out.println("Total price is: " + total);
                 }
@@ -220,10 +199,7 @@ public class OrderModel {
                 again = input.nextInt();
 
                 if (again == 1) {
-                    Menu();
-                    if (choose == 1){
-                        showSnackMenu();
-                    }
+                    showSnackMenu();
                 } else {
                     System.out.println("Total price is: " + total);
                 }
@@ -241,15 +217,13 @@ public class OrderModel {
 
                 again = input.nextInt();
 
-                if (again == 1) {
-                    Menu();
-                    if (choose == 1){
+                    if (again == 1){
                         showSnackMenu();
                     }
-                } else {
-                    System.out.println("Total price is: " + total);
-                }
-                break;
+                    else {
+                        System.out.println("Total price is: " + total);
+                    }
+                    break;
         }
     }
 }
