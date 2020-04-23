@@ -1,0 +1,10 @@
+
+1. initialize scanner
+2. String again
+3. int choose and number of items
+4. double total and pay
+5. menu method
+6. order method
+
+In menu i will have Snack, hot drink, breakfast, lunch, dinner, dessert, adult dinks, cold drinks.
+And all these catergories will havesub menu in that contains different type of content.
