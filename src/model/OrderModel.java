@@ -10,26 +10,6 @@ public class OrderModel {
 
     final static Scanner input = new Scanner(System.in);
 
-    public OrderModel() {
-
-    }
-
-    public static void Menu(){
-
-        System.out.println();
-        System.out.println("\t````````````````````````````````````Menu`````````````````````````````````````````");
-        System.out.println("\t\t1. Snacks");
-        System.out.println("\t\t2. Hot Drinks (Coffee, Hot Chocolates , Tea)");
-        System.out.println("\t\t3. Breakfast");
-        System.out.println("\t\t4. Lunch");
-        System.out.println("\t\t5. Dinner");
-        System.out.println("\t\t6. Dessert");
-        System.out.println("\t\t7. Adult Drink (Beer, Whisk(e)y, Wine)");
-        System.out.println("\t\t8. Cold Drink (Acidic Drink, Juice, Iced Tea, Sparkling & Still Water)");
-        System.out.println("\t\t9. Exit");
-        System.out.println("\t`````````````````````````````````````````````````````````````````````````````````");
-    }
-
     public static void showSnackMenu(){
 
         System.out.println();
@@ -52,6 +32,11 @@ public class OrderModel {
 
         choose = input.nextInt();
 
+        /*
+        *Using switch statement since a user will be choosing from different options
+        *
+        *All of the case have similar code for different product with different prices
+        * */
         switch (choose) {
             case 1:
                 System.out.println("You Selected Cocktails Sausage");
